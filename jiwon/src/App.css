@@ -1,0 +1,40 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container2 {
+  flex-wrap: wrap;
+  display: flex;
+  height: 100vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 400px;
+  height: 400px;
+  padding: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  background: #7f0000;
+  border-radius: 10%;
+  justify-items: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+h2 {
+  color: #7f0000;
+}
+
+h3,
+p {
+  color: #ebebeb;
+}
