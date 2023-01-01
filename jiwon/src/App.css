@@ -22,10 +22,57 @@
   padding: 1.5rem;
   margin: 1rem;
   text-align: center;
-  background: #7f0000;
   border-radius: 10%;
   justify-items: center;
   align-items: center;
+}
+
+.January {
+  background: #ffebee;
+}
+
+.February {
+  background: #fce4ec;
+}
+
+.March {
+  background: #f3e5f5;
+}
+
+.April {
+  background: #ede7f6;
+}
+
+.May {
+  background: #e8eaf6;
+}
+
+.June {
+  background: #e3f2fd;
+}
+
+.July {
+  background: #e1f5fe;
+}
+
+.August {
+  background: #e0f7fa;
+}
+
+.September {
+  background: #e0f2f1;
+}
+
+.October {
+  background: #e8f5e9;
+}
+
+.November {
+  background: #f1f8e9;
+}
+
+.December {
+  background: #f9fbe7;
 }
 
 .avatar {
@@ -33,11 +80,25 @@
   height: 200px;
   border-radius: 100%;
 }
+
 h2 {
   color: #7f0000;
 }
 
+.jan {
+}
 h3,
-p {
+p .feb {
+}
+
+.mar {
+}
+
+.apr {
+}
+
+.map {
+}
+ {
   color: #ebebeb;
 }
