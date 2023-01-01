@@ -1,45 +1,42 @@
 import React from 'react';
-import ReactiveButton from 'reactive-button';
+import DeveloperProfile from './DeveloperProfile';
+import QAEngineerProfile from './QAEngineerProfile';
+import CreatorProfile from './CreatorProfile';
+import ExuberantProfile from './ExuberantProfile';
 
 export default function Category() {
+  const onClickHandler = (item) => {
+    switch (item) {
+      case 'developer':
+        return <DeveloperProfile />;
+
+      case 'qa':
+        return <QAEngineerProfile />;
+
+      case 'creator':
+        return <CreatorProfile />;
+
+      case 'exuberant':
+        return <ExuberantProfile />;
+
+      default:
+        return <DeveloperProfile />;
+    }
+  };
   return (
     <div className="container1">
-      <ReactiveButton
-        className="button"
-        idleText={
-          <span>
-            <faReply /> QA Software Engineer
-          </span>
-        }
-        color="yellow"
-      />
-      <ReactiveButton
-        className="button"
-        idleText={
-          <span>
-            <faReply /> Creator
-          </span>
-        }
-        color="yellow"
-      />{' '}
-      <ReactiveButton
-        className="button"
-        idleText={
-          <span>
-            <faReply /> Developer
-          </span>
-        }
-        color="yellow"
-      />{' '}
-      <ReactiveButton
-        className="button"
-        idleText={
-          <span>
-            <faReply /> Exuberant
-          </span>
-        }
-        color="yellow"
-      />
+      <button className="button" onClick={onClickHandler('developer')}>
+        Developer
+      </button>
+      <button className="button" onClick={onClickHandler}>
+        QA Software Engineer
+      </button>
+      <button className="button" onClick={onClickHandler}>
+        Creator
+      </button>
+      <button className="button" onClick={onClickHandler}>
+        Exuberant
+      </button>
     </div>
   );
 }
