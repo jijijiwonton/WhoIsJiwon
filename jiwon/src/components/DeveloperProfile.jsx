@@ -1,77 +1,78 @@
 import React from 'react';
 import Profile from './Profile';
+import MonthlyPlans from './MonthlyPlans';
 
 export default function DeveloperProfile(props) {
   return (
     <div className="container2">
       <Profile
-        month="January"
+        month="JANUARY"
+        priority=""
+        img="https://avatars.githubusercontent.com/u/107325509?v=4"
+        description={<MonthlyPlans />}
+      />
+      <Profile
+        month="FEBRUARY"
         priority=""
         img="https://avatars.githubusercontent.com/u/107325509?v=4"
         description=""
       />
       <Profile
-        month="February"
+        month="MARCH"
         priority=""
         img="https://avatars.githubusercontent.com/u/107325509?v=4"
         description=""
       />
       <Profile
-        month="March"
+        month="APRIL"
         priority=""
         img="https://avatars.githubusercontent.com/u/107325509?v=4"
         description=""
       />
       <Profile
-        month="April"
+        month="MAY"
         priority=""
         img="https://avatars.githubusercontent.com/u/107325509?v=4"
         description=""
       />
       <Profile
-        month="May"
+        month="JUNE"
         priority=""
         img="https://avatars.githubusercontent.com/u/107325509?v=4"
         description=""
       />
       <Profile
-        month="June"
+        month="JULY"
         priority=""
         img="https://avatars.githubusercontent.com/u/107325509?v=4"
         description=""
       />
       <Profile
-        month="July"
-        priority=""
-        img="https://avatars.githubusercontent.com/u/107325509?v=4"
-        description=""
-      />
-      <Profile
-        month="August"
+        month="AUGUST"
         priority=""
         img="https://avatars.githubusercontent.com/u/107325509?v=4"
         description=""
       />{' '}
       <Profile
-        month="September"
+        month="SEPTEMBER"
         priority=""
         img="https://avatars.githubusercontent.com/u/107325509?v=4"
         description=""
       />
       <Profile
-        month="October"
+        month="OCTOBER"
         priority=""
         img="https://avatars.githubusercontent.com/u/107325509?v=4"
         description=""
       />
       <Profile
-        month="November"
+        month="NOVEMBER"
         priority=""
         img="https://avatars.githubusercontent.com/u/107325509?v=4"
         description=""
       />
       <Profile
-        month="December"
+        month="DECEMBER"
         priority=""
         img="https://avatars.githubusercontent.com/u/107325509?v=4"
         description=""
