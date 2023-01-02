@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import Category from './components/Category';
+import MainProfile from './components/MainProfile';
 import DeveloperProfile from './components/DeveloperProfile';
 import QAEngineerProfile from './components/QAEngineerProfile';
 import CreatorProfile from './components/CreatorProfile';
@@ -10,9 +10,11 @@ function App() {
   const author = 'Jiwon';
 
   const [displayItem, setDisplayItem] = useState(null);
+
   const onClickHandler = (e) => {
     let item = e.target.value;
     console.log(item);
+    // eslint-disable-next-line default-case
     switch (item) {
       case 'developer':
         setDisplayItem(<DeveloperProfile />);
@@ -26,9 +28,8 @@ function App() {
       case 'exuberant':
         setDisplayItem(<ExuberantProfile />);
         break;
-      default:
-        setDisplayItem(<DeveloperProfile />);
-        break;
+      case 'Main':
+        setDisplayItem(<MainProfile />);
     }
   };
 
@@ -49,7 +50,12 @@ function App() {
           Exuberant
         </button>
       </div>
-      <div className="container2">{displayItem}</div>
+      <div className="container1">
+        <button onClick={onClickHandler} value="Main">
+          Get Started!
+        </button>
+      </div>
+      <div>{displayItem}</div>
     </div>
   );
 }

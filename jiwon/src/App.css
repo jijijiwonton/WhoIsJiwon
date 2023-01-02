@@ -1,6 +1,7 @@
 .container1 {
   display: flex;
   justify-content: center;
+  padding-bottom: 0.5rem;
 }
 
 .container2 {
@@ -12,8 +13,18 @@
   align-items: center;
 }
 
+.container3 {
+  flex-wrap: wrap;
+  display: flex;
+  width: 80vh;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
 .button {
   flex-wrap: nowrap;
+  margin-left: 0.5rem;
 }
 
 .profile {
@@ -75,30 +86,23 @@
   background: #f9fbe7;
 }
 
+.Main {
+  background: #ffe54c;
+  margin: 1.5rem 10rem;
+}
+
 .avatar {
   width: 200px;
   height: 200px;
   border-radius: 100%;
 }
 
-h2 {
+h2,
+h3,
+p {
   color: #7f0000;
 }
 
-.jan {
-}
-h3,
-p .feb {
-}
-
-.mar {
-}
-
-.apr {
-}
-
-.map {
-}
- {
-  color: #ebebeb;
+p {
+  font-size: 18px;
 }
