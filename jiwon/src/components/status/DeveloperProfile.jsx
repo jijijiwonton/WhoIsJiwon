@@ -1,6 +1,6 @@
 import React from 'react';
 import Profile from './Profile';
-import MonthlyPlans from './MonthlyPlans';
+import MonthlyPlans from '../MonthlyPlans';
 
 export default function DeveloperProfile(props) {
   return (
