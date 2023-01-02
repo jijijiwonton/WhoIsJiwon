@@ -1,8 +1,8 @@
 import React from 'react';
-import DeveloperProfile from './status/DeveloperProfile';
-import QAEngineerProfile from './status/QAEngineerProfile';
-import CreatorProfile from './status/CreatorProfile';
-import ExuberantProfile from './status/ExuberantProfile';
+import DeveloperProfile from './profile/DeveloperProfile';
+import QAEngineerProfile from './profile/QAEngineerProfile';
+import CreatorProfile from './profile/CreatorProfile';
+import ExuberantProfile from './profile/ExuberantProfile';
 
 export default function Category() {
   const onClickHandler = (item) => {
