@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './App.css';
-import MainProfile from './components/MainProfile';
-import DeveloperProfile from './components/DeveloperProfile';
-import QAEngineerProfile from './components/QAEngineerProfile';
-import CreatorProfile from './components/CreatorProfile';
-import ExuberantProfile from './components/ExuberantProfile';
+import MainProfile from './components/profile/MainProfile';
+import DeveloperProfile from './components/profile/DeveloperProfile';
+import QAEngineerProfile from './components/profile/QAEngineerProfile';
+import CreatorProfile from './components/profile/CreatorProfile';
+import ExuberantProfile from './components/profile/ExuberantProfile';
 
 function App() {
   const author = 'Jiwon';

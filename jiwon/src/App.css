@@ -36,6 +36,7 @@
   border-radius: 10%;
   justify-items: center;
   align-items: center;
+  position: relative;
 }
 
 .January {
@@ -105,4 +106,27 @@ p {
 
 p {
   font-size: 18px;
+}
+
+.status {
+  position: absolute;
+  left: 58%;
+  top: 15%;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.progress {
+  background: #ffc1e3;
+  color: #bf5f82;
+}
+
+.todo {
+  background: #ffffce;
+  color: #b1bb6c;
+}
+
+.completed {
 }
